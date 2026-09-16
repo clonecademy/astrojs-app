@@ -1,7 +1,9 @@
 {
   "name": "astrojs-app",
   "version": "0.0.0",
-  "scripts": {},
+  "scripts": {
+    "lint": "biome check --write --verbose"
+  },
   "license": "UNLICENSED",
   "devEngines": {
     "packageManager": {
@@ -11,5 +13,8 @@
     }
   },
   "packageManager": "pnpm@12.4.2",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "2.5.13"
+  }
 }
