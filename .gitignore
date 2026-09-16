@@ -1,1 +1,5 @@
 # PATH: /.gitignore
+
+# Operating System
+
+.DS_Store
