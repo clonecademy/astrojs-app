@@ -1,0 +1,15 @@
+// PATH: /lefthook.jsonc
+
+{
+	"$schema": "https://json.schemastore.org/lefthook.json",
+	"pre-commit": {
+		"commands": {
+			"lint": {
+				"run": "pnpm lint {staged_files}",
+				"glob": "**/*.{js,jsx,ts,tsx,cjs,mjs,cts,mts,css,html,vue,svelte,astro,json,jsonc}",
+				"exclude": [".agents/**", "skills-lock.json"],
+				"stage_fixed": true
+			}
+		}
+	}
+}
