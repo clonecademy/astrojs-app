@@ -1,0 +1,15 @@
+{
+  "name": "astrojs-app",
+  "version": "0.0.0",
+  "scripts": {},
+  "license": "UNLICENSED",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.4.2",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.4.2",
+  "type": "module"
+}

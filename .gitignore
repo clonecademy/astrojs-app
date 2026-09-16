@@ -1,5 +1,10 @@
 # PATH: /.gitignore
 
+# Node.js
+
+node_modules/
+.pnpm-store/
+
 # Operating System
 
 .DS_Store
