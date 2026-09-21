@@ -1,0 +1,4 @@
+{
+	// DOCS: https://github.com/withastro/astro/tree/main/packages/astro/tsconfigs
+	"extends": "astro/tsconfigs/base"
+}

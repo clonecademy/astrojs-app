@@ -3,7 +3,10 @@
 	"version": "0.0.0",
 	"scripts": {
 		"prepare": "lefthook install",
-		"lint": "biome check --write --verbose"
+		"lint": "biome check --write --verbose",
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview"
 	},
 	"license": "UNLICENSED",
 	"devEngines": {
@@ -18,5 +21,8 @@
 	"devDependencies": {
 		"@biomejs/biome": "2.5.13",
 		"lefthook": "^2.1.14"
+	},
+	"dependencies": {
+		"astro": "^7.3.3"
 	}
 }

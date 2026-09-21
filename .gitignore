@@ -1,9 +1,18 @@
 # PATH: /.gitignore
 
+# Astro
+.astro/
+dist/
+
 # Node.js
 
 node_modules/
 .pnpm-store/
+
+# Secrets
+.env
+.env.*
+!.env.example
 
 # Operating System
 
