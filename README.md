@@ -31,6 +31,17 @@ A minimal starting point for building a web application with [Astro](https://ast
 
 `pnpm lint` applies fixes in place. Pass file paths to limit it to specific files.
 
+## Deploying
+
+This template builds to static HTML (Astro's default `output: "static"`, unchanged in `astro.config.mjs`), so no Node server or Dockerfile is needed in production. On [Dokploy](https://dokploy.com), create an application with the **Static** provider and point it at this repo:
+
+| Setting            | Value           |
+| ------------------ | --------------- |
+| Build command      | `pnpm install && pnpm build` |
+| Publish directory  | `dist`          |
+
+Dokploy serves the output directly; there's nothing else to configure. If a future variant of this template adds an SSR adapter, switch to Dokploy's Dockerfile/Nixpacks provider instead, since a Static deployment can't run server code.
+
 ## What's included
 
 - **Astro** — pages live in `src/pages/`, static assets in `public/`. Configure the framework in `astro.config.mjs`.
