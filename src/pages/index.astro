@@ -1,15 +1,11 @@
 ---
+import Layout from "../layouts/index.astro";
+
 console.log("Hello, server!");
 ---
 
-<html lang="en">
-    <body>
+<Layout>
+    <div class="flex items-center justify-center grow">
         <h1>Hello, client!</h1>
-    </body>
-</html>
-
-<style>
-    h1 {
-        color: blue;
-    }
-</style>
+    </div>
+</Layout>
