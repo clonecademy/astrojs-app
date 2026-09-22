@@ -1,4 +1,5 @@
 ---
+import Button from "../components/button.astro";
 import Layout from "../layouts/index.astro";
 
 console.log("Hello, server!");
@@ -6,6 +7,8 @@ console.log("Hello, server!");
 
 <Layout>
     <div class="flex items-center justify-center grow">
-        <h1>Hello, client!</h1>
+        <h1>
+            <Button>Hello, client</Button>
+        </h1>
     </div>
 </Layout>
