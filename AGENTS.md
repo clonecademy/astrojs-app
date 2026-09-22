@@ -6,7 +6,7 @@ This repository is a **template**. `README.md` is written for people who consume
 
 ## Status
 
-Freshly scaffolded Astro web application template. The only source is `src/pages/index.astro`, and `astro.config.mjs` is the default `defineConfig({})`. `TODO.md` is still an empty header. There is no test framework configured.
+Freshly scaffolded Astro web application template. The only source is `src/pages/index.astro`. `astro.config.mjs` sets `output: "server"` with the `@astrojs/node` adapter (standalone mode) for SSR hosting; see the `Dockerfile` for the production build/run. `TODO.md` is still an empty header. There is no test framework configured.
 
 ## Commands
 

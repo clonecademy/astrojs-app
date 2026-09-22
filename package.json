@@ -23,6 +23,7 @@
 		"lefthook": "^2.1.14"
 	},
 	"dependencies": {
+		"@astrojs/node": "^11.1.6",
 		"@phosphor-icons/core": "^2.1.1",
 		"@tailwindcss/vite": "^4.3.3",
 		"astro": "^7.3.3",

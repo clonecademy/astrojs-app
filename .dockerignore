@@ -1,0 +1,18 @@
+# PATH: /.dockerignore
+
+.astro/
+dist/
+
+node_modules/
+.pnpm-store/
+
+.env
+.env.*
+!.env.example
+
+.DS_Store
+
+.git/
+.github/
+.agents/
+.claude/
